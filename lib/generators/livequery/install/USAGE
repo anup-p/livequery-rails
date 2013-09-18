@@ -1,0 +1,8 @@
+Description:
+    Setup jQuerylive assets on your application
+
+Example:
+  rails g livequery:install
+  
+  This will replace the default application assets:
+    /app/assets/javascripts/application.js

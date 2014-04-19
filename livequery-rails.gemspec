@@ -3,7 +3,7 @@ require File.expand_path('../lib/livequery/rails/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "livequery-rails"
-  s.date        = '2013-09-18' 
+  s.date        = '2013-09-18'
   s.version     = Livequery::Rails::VERSION
   s.authors     = ["Anup Pareek"]
   s.email       = ["anup.p@cisinlabs.com"]
@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project         = "jquery-rails"
 
   s.add_dependency "railties", ">= 3.0"
+  s.add_dependency "jquery-rails"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
